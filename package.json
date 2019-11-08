@@ -1,6 +1,6 @@
 {
-  "name": "bleh",
-  "version": "0.1.0",
+  "name": "ssaquif-react-github-api-app",
+  "version": "1.0.0",
   "private": true,
   "devDependencies": {
     "react-scripts": "3.2.0"
@@ -19,5 +19,17 @@
   },
   "engines": {
     "node": ">=8.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
