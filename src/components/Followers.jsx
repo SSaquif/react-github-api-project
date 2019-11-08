@@ -23,7 +23,7 @@ class Followers extends React.Component{
              });
 
         
-        const API_TOKEN = process.env.GITHUB_API_KEY;
+        const API_TOKEN = process.env.REACT_APP_GITHUB_API_KEY;;
         
         fetch(`https://api.github.com/users/${this.props.params.username}/followers?access_token=${API_TOKEN}&page=${this.state.page}&per_page=50`)
         .then(response => response.json())

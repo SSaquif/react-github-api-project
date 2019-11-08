@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
-const API_TOKEN = process.env.GITHUB_API_KEY;
+const API_TOKEN = process.env.REACT_APP_GITHUB_API_KEY;;
 
 class User extends React.Component {
     constructor() {
