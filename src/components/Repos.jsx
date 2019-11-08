@@ -2,7 +2,7 @@ import React from 'react';
 import GithubRepo from './GithubRepo'
 var Infinite = require('react-infinite');
 
-const API_TOKEN = 'fb8063967969414448d369f13eec340744162591';
+const API_TOKEN = process.env.GITHUB_API_KEY;
 
 class Repos extends React.Component{
     constructor() {
