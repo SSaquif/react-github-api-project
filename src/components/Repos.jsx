@@ -29,7 +29,7 @@ class Repos extends React.Component{
                     reposArray: this.state.reposArray.concat(response),
                     page: this.state.page + 1,
                     loading: false,
-                },{ReactDOM: ReactDOM});
+                });
             }
             else{
                 this.setState({

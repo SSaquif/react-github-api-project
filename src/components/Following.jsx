@@ -2,7 +2,7 @@ import React from 'react';
 import GithubUser from './GithubUser'
 var Infinite = require('react-infinite');
 
-const API_TOKEN = process.env.REACT_APP_GITHUB_API_KEY;
+const API_TOKEN = process.env.REACT_APP_GITHUB_API_KEY;;
 
 class Following extends React.Component{
     constructor(){
@@ -33,7 +33,7 @@ class Following extends React.Component{
                     followingArray: this.state.followingArray.concat(response),
                     page: this.state.page + 1,
                     loading: false,
-                },{ReactDOM: ReactDOM});
+                });
             }
             else{
                 this.setState({
