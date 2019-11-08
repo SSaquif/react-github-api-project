@@ -23,7 +23,7 @@ class Followers extends React.Component{
              });
 
         
-        const API_TOKEN = 'e681da67137ba7c388bc0d86c25ad9e0e03f2391';
+        const API_TOKEN = 'fb8063967969414448d369f13eec340744162591';
         
         fetch(`https://api.github.com/users/${this.props.params.username}/followers?access_token=${API_TOKEN}&page=${this.state.page}&per_page=50`)
         .then(response => response.json())

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
-const API_TOKEN = 'e681da67137ba7c388bc0d86c25ad9e0e03f2391';
+const API_TOKEN = 'fb8063967969414448d369f13eec340744162591';
 
 class User extends React.Component {
     constructor() {
